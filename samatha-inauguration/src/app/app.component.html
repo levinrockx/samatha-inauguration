@@ -1,5 +1,13 @@
 <div #overlay class="overlay">
-  <button #button (click)="animate()">ENTER</button>
+  <table #button >
+    <tr>
+      <td class="custom-td" (click)="animate()">
+        <p (click)="animate()">
+          Enter www.samathabooks.com
+        </p>
+      </td>
+    </tr>
+  </table>
 </div>
 <div #overlay1 class="overlay1">
 </div>
